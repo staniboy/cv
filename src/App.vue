@@ -112,6 +112,10 @@ const skills = [
     percent: 90
   },
   {
+    name: 'SQL',
+    percent: 90
+  },
+  {
     name: 'NPM',
     percent: 80
   },
