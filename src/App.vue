@@ -1,10 +1,10 @@
 <template>
-  <div class="container mx-auto p-10 w-[1024px] bg-slate-50 text-slate-800">
+  <div class="container mx-auto p-10 w-[1024px] text-slate-800 bg-white">
     <div class="pb-5">
       <h1 class="text-4xl font-medium mb-2">Stanislav Vysotskiy</h1>
       <h2 class="text-md">Vue.js Frontend Developer</h2>
     </div>
-    <div class="flex gap-4">
+    <div class="flex gap-8">
       <!-- Main Content -->
       <div class="flex flex-col gap-6 basis-3/4">
         <resume-section title="Objective">
@@ -46,7 +46,7 @@
           <r-link title="LinkedIn" href="https://www.linkedin.com/in/staniboy" />
         </section-item>
         <section-item title="Languages">
-          <skill title="English" :percent="80" />
+          <skill title="English" :percent="90" />
           <skill title="Russian" :percent="100" />
         </section-item>
         <section-item title="Technical Skills">
@@ -55,7 +55,7 @@
             :key="skill.name"
             :title="skill.name"
             :percent="skill.percent"
-          ></skill>
+          />
         </section-item>
       </div>
     </div>
