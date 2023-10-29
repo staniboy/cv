@@ -7,12 +7,12 @@
     <div class="flex gap-8">
       <!-- Main Content -->
       <div class="flex flex-col gap-6 basis-3/4">
-        <resume-section title="Objective">
+        <resume-section title="Objective" icon="fa-user">
           Results-driven Computer Information Systems graduate with expertise in Vue.js, Nuxt.js,
           and Node.js. Seeking a remote front-end developer role to create innovative web solutions
           and collaborate with global teams.
         </resume-section>
-        <resume-section title="Education">
+        <resume-section title="Education" icon="fa-graduation-cap">
           <section-item
             title="Associate's Degree in Computer Information Systems"
             subtitle="Portland Community College, Portland, OR, 2020"
@@ -22,7 +22,7 @@
             subtitle="Zero to Mastery, Udemy, 2023"
           />
         </resume-section>
-        <resume-section title="Projects">
+        <resume-section title="Projects" icon="fa-star">
           <section-item v-for="project in projects" :key="project.name" :title="project.name">
             <p>
               {{ project.description }}
