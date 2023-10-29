@@ -96,6 +96,10 @@ const skills = [
     percent: 95
   },
   {
+    name: 'Nuxt',
+    percent: 85
+  },
+  {
     name: 'JavaScript',
     percent: 95
   },
